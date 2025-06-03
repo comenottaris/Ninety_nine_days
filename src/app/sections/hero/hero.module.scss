@@ -1,0 +1,36 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 2rem;
+  background-color: #000;
+  color: white;
+}
+
+.header {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+.logoText {
+  font-family: inherit; // inherit the same font as the old logo
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: white;
+  text-decoration: none;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heroText {
+  font-weight: bold;
+  font-size: 1.5rem;
+  max-width: 800px;
+}
